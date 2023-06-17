@@ -1,0 +1,112 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="/CSS/c.css">
+    <title>Document</title>
+
+</head>
+<body><form class="weather_search" >
+    <input class="search" placeholder="Search for a city..."><button></button></input></form>
+    <div class="mask">
+    <div class="img"> </div>
+    <div class="top">
+   <div class="container">
+    <div class="cloud">
+    <img src="https://openweathermap.org/img/wn/10d@2x.png" id="cloud"></div>
+     <h1 class="forecast">Fog</h1>
+     <div class="loca"><img src="/Images/placeholder.png" id="loca">
+        <h4 class="city">Nanded City</h4></div>
+            <h1 id="temp">28°C</h1>
+            <div class="feels" onclick="">
+             <p id="li"> Feels Like</p> <p id="f"> </p></div>
+       <img src="/Images/appointment.png" id="d" onclick="">
+            <h1 id="day">Thursday</h1></div>
+<div class="cont">
+    <div class="elem">
+        <br>
+        <img src="/Images/humidity (1).png" class="hum">
+        <h3 id="namH">Humidity</h3>
+        <br>
+        <h3 id="numH">78%</h3>
+    </div>
+    <div class="elem">
+        <br>
+        <img src="/Images/pressure.png" class="air">
+        <h3 id="namA">Air Pressure</h3>
+        <br>
+        <h3 id="numA">1009.483PS</h3>
+    </div>
+    <div class="elem">
+        <br>
+        <img src="/Images/eye.png" class="vis">
+        <h3 id="namV">Visibility</h3>
+        <br>
+        <h3 id="numV">0%</h3>
+    </div>
+    <div class="elem">
+        <br>
+        <img src="/Images/wind (1).png" class="wind">
+        <h3 id="namW">Wind Speed</h3>
+        <br>
+        <h3 id="numW">1.4 Km/h</h3>
+    </div>
+</div>
+</div>
+<div class="bottom">
+    
+    <div class="card" onclick="city1()">
+        <h1 id="cities" class="one">Pune</h1>
+       <div class="o"> <img src="https://openweathermap.org/img/wn/10d@2x.png" id="one"></div>
+
+        <h1 id="tempe" class="t1">28°C</h1>
+        <h3 class="hov">Feels like<p id="feel" class="f1">30°C<h3></h3>
+    </div>
+    <div class="card" onclick="city2()">
+        <h1 id="cities" class="two">Mumbai</h1>
+        <div class="tw"><img src="https://openweathermap.org/img/wn/10d@2x.png" id="two"></div>
+
+        <h1 id="tempe" class="t2">28°C</h1>
+        <h3 class="hov">Feels like<p id="feel" class="f2">30°C<h3></h3>
+    </div>
+    <div class="card" onclick="city3()">
+        <h1 id="cities" class="three">Jammu</h1>
+        <div class="th"><img src="https://openweathermap.org/img/wn/10d@2x.png" id="three"></div>
+
+        <h1 id="tempe" class="t3">24°C</h1>
+        <h3 class="hov">Feels like<p id="feel" class="f3">30°C<h3></h3>
+    </div>
+    <div class="card" onclick="city4()">
+        <h1 id="cities" class="four">Hyderabad</h1>
+        <div class="fo"><img src="https://openweathermap.org/img/wn/10d@2x.png" id="four"></div>
+
+        <h1 id="tempe" class="t4">17°C</h1>
+        <h3 class="hov">Feels like<p id="feel" class="f4">30°C<h3></h3>
+    </div>
+    <div class="card" onclick="city5()">
+        <h1 id="cities" class="five">Nashik</h1>
+       <div class="fi"> <img src="https://openweathermap.org/img/wn/10d@2x.png" id="five"></div>
+
+        <h1 id="tempe" class="t5">11°C</h1>
+        <h3 class="hov">Feels like<p id="feel" class="f5">30°C<h3> </h3>
+    </div>
+    <div class="card" onclick="city6()">
+        <h1 id="cities" class="six">Nagpur</h1>
+       <div class="si"> <img src="https://openweathermap.org/img/wn/10d@2x.png" id="six"></div>
+
+        <h1 id="tempe" class="t6">11°C</h1>
+        <h3 class="hov">Feels like<p id="feel" class="f6">30°C<h3></h3>
+    </div>
+    <div class="card" onclick="city7()">
+        <h1 id="cities" class="seven">Karnataka</h1>
+       <div class="se"> <img src="https://openweathermap.org/img/wn/10d@2x.png" id="seven"></div>
+        <h1 id="tempe" class="t7">11°C</h1>
+        <h3 class="hov">Feels like<p id="feel" class="f7">30°C<h3></h3>
+    </div>
+
+</div>
+</div>
+<script src="/JS/j.js"></script>
+</body>
+</html>
